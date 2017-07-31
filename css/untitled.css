@@ -1,0 +1,60 @@
+.b-about-page {
+}
+.b-about-page__col_left {
+}
+	.b-about-page__col_left h2 {
+	}
+	.b-about-page__col_left h3 {
+	}
+	.b-about-page__col_left p {
+	}	
+.b-about-page__col_right {
+}
+	.b-about-page__map {
+	}
+	.b-about-page__specialist {
+	}
+		.b-about-page__specialist img {
+		}
+			.b-about-page__specialist_cont {
+			}
+				.b-about-page__specialist_cont__img {
+				}
+				.b-about-page__specialist_cont__vcard {
+
+				}	
+					.b-about-page__specialist__name {
+					}
+					.b-about-page__specialist h3 {
+					}
+					.b-about-page__specialist p {
+					}
+	.b-about-page__video {
+	}
+		.b-about-page__video h3 {
+		}
+		iframe {
+		}
+	.b-about-page__contact-form {
+	}
+		.b-about-page__contact-form h3 {
+		}
+		.b-about-page__contact-form form {
+		}
+			.form__name {
+			}
+			.form-email {
+			}
+			.form-text {
+			}
+				.b-about-page__contact-form label {
+				}
+
+				.b-about-page__contact-form input {
+				}
+				.form__check-uslovia {
+				}			
+				.form__check-uslovia span {
+				}	
+				.b-about-page__contact-form button {
+				}		
