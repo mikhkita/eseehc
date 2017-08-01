@@ -255,11 +255,12 @@ textarea:-moz-placeholder {
 	height: 100%;
 }
 	.b-left-board .b-logo {
+		background-image: url('../i/cheese-logo.png');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 50% 50%;
 		display: inline-block;
-		height: 145px;
+		height: 147px;
 		width: 138px;
 		margin-bottom: 18px;
 	}
@@ -2255,5 +2256,8 @@ textarea:-moz-placeholder {
 	}
 	.country .country-logo {
 		background-image: url(../i/swiss@2x.jpg);
+	}
+	.b-left-board .b-logo {
+		background-image: url('../i/cheese-logo@2x.png');	
 	}
 }	
