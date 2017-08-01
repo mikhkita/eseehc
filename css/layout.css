@@ -1579,13 +1579,31 @@ textarea:-moz-placeholder {
   content: "\e900";
   color: #bda991;
 }
+.icon-vk:hover:before {
+  color: #f2f2f2;
+}
 .icon-fb:before {
   content: "\e901";
   color: #bda991;
 }
+.icon-fb:hover:before {
+  color: #f2f2f2;
+}
 .icon-insta:before {
   content: "\e902";
   color: #bda991;
+}
+.icon-insta:hover:before {
+  color: #f2f2f2;
+}
+.b-blog-page__article .icon-vk:hover:before {
+	color:#252526;
+}
+.b-blog-page__article .icon-fb:hover:before {
+	color:#252526;
+}
+.b-blog-page__article .icon-insta:hover:before {
+	color:#252526;
 }
 .icon-arrow-left:before {
   content: "\e903";
