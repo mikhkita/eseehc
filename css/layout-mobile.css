@@ -351,6 +351,10 @@ input:-moz-placeholder {
 					height: 260px;
 					float: none !important;
 				}
+				.b-2 .card-img {
+					filter: none;
+					-webkit-filter: grayscale(0);
+				}				
 				.b-2 .card-img img {
 					width: 100%;
 					height: 100%;
@@ -689,6 +693,13 @@ input:-moz-placeholder {
 	.b-assortment-page__catalog {
 		width: 100%;
 	}
+	.b-assortment-page__catalog h1 {
+		margin-top: 40px;
+		margin-bottom: 30px;
+		color: #4C4C4C;
+		font-size: 32px;
+		line-height: 48px;
+	}	
 		.b-assortment-page__catalog__container {
 			margin: 17px 20px;
 		}
