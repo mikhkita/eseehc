@@ -1249,7 +1249,7 @@ textarea:-moz-placeholder {
 						margin-bottom: 14px;
 						letter-spacing: 0px !important;
 					}
-					.b-about-page__specialist h3 {
+					.b-about-page__specialist h4 {
 						font-family: "FuturaPT-Demi";
 						font-size: 16px;
 						line-height: 27px;
@@ -1273,12 +1273,13 @@ textarea:-moz-placeholder {
 		padding-left: 100px;
 	}
 	.contact-form-video-container{width: 100%;}
-		.b-about-page__video h3 {
+		.b-about-page__video span {
 			font-family: "FuturaPT-Demi";
 			font-size: 18px;
 			line-height: 24px;
 			color: #4C4C4C;
 			margin-bottom: 11px;
+			display: block;
 		}
 		iframe {
 			width: 300px;
@@ -1860,7 +1861,7 @@ textarea:-moz-placeholder {
 	}
 	.contact-form-video-container{
 	}
-		.b-about-page__video h3 {
+		.b-about-page__video span {
 		margin-left: 10%;
 		}
 		iframe {
@@ -2110,7 +2111,7 @@ textarea:-moz-placeholder {
 					}
 					.b-about-page__specialist p {
 					}	
-		.b-about-page__video h3 {
+		.b-about-page__video span {
 		margin: 0;
 		margin-bottom: 20px;
 		}
@@ -2305,7 +2306,7 @@ textarea:-moz-placeholder {
 					}	
 	.contact-form-video-container{
 	}
-		.b-about-page__video h3 {
+		.b-about-page__video span {
 		}
 		iframe {
 		}

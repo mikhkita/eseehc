@@ -978,7 +978,7 @@ input:-moz-placeholder {
 					}
 	.b-about-page__video {
 	}
-		.b-about-page__video h3 {
+		.b-about-page__video span {
 		}
 		iframe {
 		}
@@ -1761,7 +1761,7 @@ body {
 						}
 		.b-about-page__video {
 		}
-			.b-about-page__video h3 {
+			.b-about-page__video span {
 			}
 			iframe {
 			width: 100%;
