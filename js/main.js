@@ -266,7 +266,9 @@ $(document).ready(function(){
     //         $('#uslovia-checkbox').checked("true");
     //     }
     // });  
-    autosize(document.querySelectorAll('textarea'));
+    if ($(".b-about-page__contact-form").length > 0) {
+        autosize(document.querySelectorAll('textarea'));
+    }
 });
 
 
