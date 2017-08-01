@@ -608,6 +608,7 @@ input:-moz-placeholder {
 	width: 100%;
 }
 	.politics,.information {
+		display: inline-block;
 		font-size: 14px;
 		line-height: 46px;
 		text-decoration: underline;
@@ -1003,10 +1004,12 @@ input:-moz-placeholder {
 				width: 100%;
 				min-width: 100%;
 				margin-bottom: 20px;
+				height: 60px;
 				}			
 				.form__check-uslovia span {
-				width: calc(100% - 36px);
+				display: block;
 				/* margin: 0; */
+				width: calc(100vw - 96px);
 				}	
 				.b-about-page__contact-form button {
 				margin: 0;
