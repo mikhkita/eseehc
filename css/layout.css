@@ -406,7 +406,13 @@ textarea:-moz-placeholder {
 					}
 					.b-1 .slider-1-content-text h1 {
 						text-align: center;						
-					}				
+					}	
+					.b-1 .slider-1-content-text h2 {
+						font-family: "PlayfairDisplay-Regular";
+						font-size: 50px;
+						line-height: 70px;	
+						text-align: center;					
+					}			
 	.slider-1 .slider-1-content-text{
 		-webkit-transform: translateY(50px);
 		   -moz-transform: translateY(50px);
@@ -548,6 +554,7 @@ textarea:-moz-placeholder {
 					height: 445px;
 				}
 					.assortment-product-card-img {
+						display: inherit;
 						text-align: center;
 						max-width: 325px;
 						height: 150px;
