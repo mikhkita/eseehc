@@ -102,7 +102,7 @@ $(document).ready(function(){
     // var jssor_slider1 = new $JssorSlider$("slider1_container", options);
          
            
-    console.log(pc,tablet,mobile);
+    // console.log(pc,tablet,mobile);
     lastresize = myHeight;
     function resizeFirstSlide () {
         if (mobile == true) {
@@ -140,7 +140,7 @@ $(document).ready(function(){
 
     $(".slider-1").on('init', function(slick){
         $(".slider-1").addClass("loaded");
-        console.log('init');
+        // console.log('init');
     });
     $('.slider-1').slick({
         dots: true,
@@ -151,7 +151,7 @@ $(document).ready(function(){
     });
     $(".slider-1").on('init', function(slick){
         $(".slider-1").addClass("loaded");
-        console.log('init');
+        // console.log('init');
     });
 
     function assortmentSlider () {
@@ -209,6 +209,7 @@ $(document).ready(function(){
             }); 
         }        
     }
+    
     function slideOutClosePc () {
         if (mobile == false) {
             slideout.close();
@@ -269,6 +270,7 @@ $(document).ready(function(){
     if ($(".b-about-page__contact-form").length > 0) {
         autosize(document.querySelectorAll('textarea'));
     }
+    video.play();
 });
 
 

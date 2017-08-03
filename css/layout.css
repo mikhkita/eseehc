@@ -376,11 +376,58 @@ textarea:-moz-placeholder {
 				/*height: 1024px !important;*/
 				height: 1024px;
 				width: calc(100% - 245px);
+				overflow: hidden;
+				position: relative;
 			}	
 				.b-1 .slider-1-content {
 					display: table-cell;
 					vertical-align: middle;
 				}
+				.b-video {
+					position: absolute;
+					width: 100%;
+					display: block;
+					height: 100%;
+				}
+.b-video-cont {
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	display: block; 
+	width: 100%; 
+	height: 100%;	
+}
+
+.b-video-cont > video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+
+/*.b-video-cont{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.b-video-cont:after{
+		position: absolute;
+		content: "s";
+		font-size: 0px;
+		width: 100%;
+		height: 100%;
+	}
+.b-video-cont.dark:after{
+
+	}
+.b-video{width: 100%;}*/				
 					.b-1 .slider-1-content-header {
 						display: block;
 					}
@@ -2383,3 +2430,4 @@ textarea:-moz-placeholder {
 		background-image: url('../i/cheese-logo@2x.png');	
 	}
 }	
+
