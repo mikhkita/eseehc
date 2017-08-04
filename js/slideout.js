@@ -566,8 +566,10 @@ function close(eve) {
 
 slideout
   .on('beforeopen', function() {
+    this.menu.classList.remove('slideout-menu-inactive');
     this.panel.classList.add('panel-open');
     this.menu.classList.add('menu-active');
+    $('#mmenu2').addClass('slideout-menu-inactive');
     slideout.enableTouch();
   })
   .on('open', function() {
@@ -605,8 +607,10 @@ if ($(".toggle-button2").length > 0) {
 
   slideout2
     .on('beforeopen', function() {
+      this.menu.classList.remove('slideout-menu-inactive');
       this.panel.classList.add('panel-open');
-      this.menu.classList.add('menu-active');
+      this.menu.classList.add('menu-active2');
+      $('#mmenu').addClass('slideout-menu-inactive');
       slideout2.enableTouch();
     })
     .on('open', function() {
@@ -614,7 +618,7 @@ if ($(".toggle-button2").length > 0) {
     })
     .on('beforeclose', function() {
       this.panel.classList.remove('panel-open');
-      this.menu.classList.remove('menu-active');
+      this.menu.classList.remove('menu-active2');
       slideout2.disableTouch();
       this.panel.removeEventListener('click', close2);
     });

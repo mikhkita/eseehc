@@ -1256,7 +1256,7 @@ body {
    min-height: 100vh;
    overflow-y: scroll;
    -webkit-overflow-scrolling: touch;
-   z-index: 0;
+   z-index: 1;
    display: none;
    /* box-sizing: border-box; */
 }
@@ -1264,13 +1264,18 @@ body {
 .slideout-menu-left {
   left: 2;
 }
-
+.slideout-menu-inactive {
+	z-index: 0;
+}
 .slideout-menu-right {
   right: 0;
   z-index: 1;
 }
 .menu-active {
-	z-index: 1;
+	z-index: 4;
+}
+.menu-active2 {
+	z-index: 3;
 }
 .slideout-panel {
   position: relative;
@@ -1344,7 +1349,7 @@ body {
 
 .slideout-panel {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   will-change: transform;
   background-color: #FFF; /* A background-color is required */
   min-height: 100vh;
