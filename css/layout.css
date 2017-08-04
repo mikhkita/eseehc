@@ -894,6 +894,7 @@ textarea:-moz-placeholder {
 		height: 100%;
 		/* overflow-y: auto; */
 		display: table;
+		padding-bottom: 46px;
 	}
 
 	.b-assortment-page__menu ul {
