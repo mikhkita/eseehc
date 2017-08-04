@@ -700,6 +700,7 @@ input:-moz-placeholder {
 		color: #4C4C4C;
 		font-size: 32px;
 		line-height: 48px;
+		margin-left: 10px;
 	}	
 		.b-assortment-page__catalog__container {
 			margin: 17px 20px;
@@ -1676,6 +1677,9 @@ body {
 				}	
 	.b-assortment-page__catalog {
 		width: 100%;
+	}
+	.b-assortment-page__catalog h1 {
+		margin-left: 0;
 	}
 	.b-assortment-page-mobile-header {
 		margin: 10px 0 16px 4px;
