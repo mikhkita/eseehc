@@ -253,7 +253,11 @@ $(document).ready(function(){
                     }
                 }
             }
-        }  
+        } 
+        else {
+            $('.card-img').css({'filter':'none'});
+            $('.card-img').css({'-webkit-filter': 'grayscale(0)'});
+        } 
     }
     $(window).scroll(moverHomePartnershipBlock);
     moverHomePartnershipBlock(); 
