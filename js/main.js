@@ -207,7 +207,8 @@ $(document).ready(function(){
                 nextArrow: false,       
                 infinite: true            
             }); 
-        }        
+        }  
+              
     }
     
     function slideOutClosePc () {
